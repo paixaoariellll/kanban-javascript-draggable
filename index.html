@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Kanbam JavaScript</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+    <header>
+        <h2>Kanban Dashboard Draggable </h2>
+    </header>
+
+    <section class="dashboard">
+        <div id="container">
+            <div class="list">
+                <h1>Tarefas</h1>
+                <div class="draggingContainer">
+                    <div class="card" draggable="true">
+                        <div class="title">Tarefa 1</div>
+                        <div class="description">
+                            Levantamento de requisitos. <br>
+                            Construir um Diagrama de Casos de Uso.
+                        </div>
+                    </div>
+                    <div class="card" draggable="true">
+                        <div class="title">Tarefa 2</div>
+                        <div class="description">
+                            Criar um repositório do projeto no GitHub.
+                        </div>
+                    </div>
+
+                    <div class="card" draggable="true">
+                        <div class="title">Tarefa 3</div>
+                        <div class="description">
+                            Construir um Product Backlog para estimar o tempo de execução e para a organização das
+                            tarefas.
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="list">
+                <h1>Sendo feitas</h1>
+                <div class="draggingContainer">
+                    <div class="card" draggable="true">
+                        <div class="title">Tarefa 5</div>
+                        <div class="description">
+                            Organizar a equipe. <br>
+                            Modelagem do projeto em figma.
+                        </div>
+                    </div>
+                    <div class="card" draggable="true">
+                        <div class="title">Tarefa 6</div>
+                        <div class="description">
+                            Agradecer a Deus!
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="list">
+                <h1>Em Análise</h1>
+                <div class="draggingContainer">
+                    <div class="card" draggable="true">
+                        <div class="title">Tarefa 7</div>
+                        <div class="description">
+                            Aprovação de orçamento e logística de implementação.
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="list">
+                <h1>Concluídas</h1>
+                <div class="draggingContainer">
+                    <div class="card" draggable="true">
+                        <div class="title">Tarefa 8 </div>
+                        <div class="description">
+                            Contratar equipe.
+                        </div>
+                    </div>
+                </div>
+                <div class="card" draggable="true">
+                    <div class="title">Tarefa 9</div>
+                    <div class="description">
+                        Levantar requisitos. <br>
+                        Funcionais. <br>
+                        Não funcionais.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body,
+html {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+}
+
+section {
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to right, rgb(7, 7, 186), blueviolet);
+}
+
+#container {
+    width: 100%;
+    height: 100%;
+    float: left;
+    display: flex;
+    flex-direction: row;
+    padding: 40px;
+    justify-content: space-between;
+}
+
+.list {
+    width: 23%;
+    border-radius: 3px;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.203);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+h1 {
+    text-align: center;
+    font-size: 25px;
+    color: azure;
+}
+
+.card {
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    background: rgba(255, 255, 255, 0.35);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.card.dragging {
+    opacity: 0.6;
+}
+
+.card .title {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.header {
+    display: flex;
+    position: relative;
+    width: 100%;
+}
+
+h2 {
+    display: flex;
+    font-size: 3rem;
+    color: azure;
+    text-align: center;
+    height: 100px;
+    top: 50px;
+    justify-content: center;
+    background: linear-gradient(to right, rgb(7, 7, 186), blueviolet);
+    margin: 0;
+}
